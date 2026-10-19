@@ -1,0 +1,37 @@
+// checks X value
+LOD X
+JMZ 9
+SUB #1
+JMZ 22
+SUB #1
+JMZ 30
+JMP 36
+// adds all array numbers
+LOD T1
+ADD T2
+ADD T3
+ADD T4
+ADD T5
+ADD T6
+ADD T7
+ADD T8
+ADD T9
+ADD T10
+STO Z
+JMP 36
+// adds the first 5 array numbers
+LOD T1
+ADD T2
+ADD T3
+ADD T4
+ADD T5
+STO Z
+JMP 36
+// adds the last 5 array numbers
+LOD T6
+ADD T7
+ADD T8
+ADD T9
+ADD T10
+STO Z
+HLT
